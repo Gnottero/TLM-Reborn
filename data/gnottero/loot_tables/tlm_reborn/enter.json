@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:lime_stained_glass_pane",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData: 1280200, display: {Lore: ['{\"text\":\"Click to teleport\",\"italic\":false,\"color\":\"gray\"}'], Name: '{\"text\":\"Enter the Last Millenium\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

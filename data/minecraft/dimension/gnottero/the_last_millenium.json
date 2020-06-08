@@ -1,0 +1,19 @@
+{
+    "generator": {
+        "type": "minecraft:flat",
+        "seed": 43242342423,
+        "settings": {
+            "biome": "minecraft:plains",
+            "layers": [
+                {
+                    "block": "minecraft:air",
+                    "height": 1
+                }
+            ],
+            "structures": {
+                "structures": {}
+            }
+        }
+    },
+    "type": "gnottero:tlm_settings"
+}

@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "location": {
+                    "dimension": "minecraft:overworld"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "dimension": "minecraft:the_nether"
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "dimension": "minecraft:the_end"
+            }
+        }
+    ]
+}

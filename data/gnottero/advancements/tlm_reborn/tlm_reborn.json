@@ -1,0 +1,17 @@
+{
+     "criteria": {
+          "trigger": {
+               "trigger": "minecraft:tick"
+          }
+     },
+     "display": {
+          "announce_to_chat": false,
+          "description": "The Last Millenium in Vanilla by Gnottero",
+          "icon": {
+               "item": "minecraft:barrel"
+          },
+          "show_toast": false,
+          "title": "TLM Reborn"
+     },
+     "parent": "global:gnottero"
+}

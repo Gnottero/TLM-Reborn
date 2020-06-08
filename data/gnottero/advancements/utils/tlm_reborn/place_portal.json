@@ -1,0 +1,19 @@
+{
+    "rewards": {
+        "function": "gnottero:tlm_reborn/events/world/has_placed"
+    },
+    "criteria": {
+        "place": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {}
+                },
+                "item": {
+                    "item": "minecraft:item_frame",
+                    "nbt": "{ctc:{id:\"tlm_portal\",from:\"gnottero:tlm_reborn\",traits:[\"block\",\"tlm_portal\"]}}"
+                }
+            }
+        }
+    }
+}
