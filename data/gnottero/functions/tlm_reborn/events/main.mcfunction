@@ -5,7 +5,7 @@
         execute if entity @e[type=item,distance=..5.5,nbt={Item:{tag:{CustomModelData:1280200}}}] run kill @e[type=item,distance=..5.5,nbt={Item:{tag:{CustomModelData:1280200}}}]
 
     #> Call the "gnottero:tlm_reborn/events/gui/check_slots/main" function to handle the GUI related events
-        execute unless predicate gnottero:tlm_reborn/matches_barrel if block ~ ~ ~ barrel[open=true] run function gnottero:tlm_reborn/events/gui/check_slots/main
+        execute if block ~ ~ ~ barrel[open=true] unless predicate gnottero:tlm_reborn/matches_barrel run function gnottero:tlm_reborn/events/gui/check_slots/main
 
     #> Call the "gnottero:tlm_reborn/events/world/remove" function to handle the block breaking event if the portal isn't an unbreakable one
         execute unless block ~ ~ ~ barrel if entity @s[tag=!gn.tlm_unbreakable_portal] run function gnottero:tlm_reborn/events/world/remove
