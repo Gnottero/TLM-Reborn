@@ -7,4 +7,4 @@
        execute if entity @s[tag=gn.tlm_unbreakable_portal] run loot replace block ~ ~ ~ container.13 loot gnottero:tlm_reborn/leave
 
     #> Call the "gnottero:tlm_reborn/events/teleport/check_click" function
-        execute as @a[distance=..5.5] at @s run function gnottero:tlm_reborn/events/teleport/check_click
+        execute as @a[distance=..5.5,tag=!global.ignore,tag=!global.ignore.pos] at @s run function gnottero:tlm_reborn/events/teleport/check_click
